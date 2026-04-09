@@ -206,13 +206,6 @@ This project helps you learn:
 
 ---
 
-# 👨‍💻 Author
-
-**Victor**
-AI Engineer in progress → Future Startup Founder 🚀
-
----
-
 # 📝 Notes
 
 This is not just a tutorial project.
@@ -223,14 +216,4 @@ It is a **growing AI backend playground** aimed at:
 * AI system design
 * startup-level architecture
 
----
 
-# ⭐ Tip
-
-Rename your file correctly:
-
-```text
-README.md
-```
-
-(not `read.md`)
