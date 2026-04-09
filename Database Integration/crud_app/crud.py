@@ -5,7 +5,7 @@ import models, schemas
 def get_employees(db: Session):
     return db.query(models.Employee).all()
 
-def get_employees(db: Session, emp_id: int):
+def get_employee(db: Session, emp_id: int):
     return db.query(models.Employee).filter(models.Employee.id == emp_id).first()
 
 def create_employee(db: Session, employee: schemas.EmployeeCreate):
