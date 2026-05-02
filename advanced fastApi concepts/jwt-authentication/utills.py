@@ -1,11 +1,11 @@
 from passlib.context import CryptContext
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated='auto')
+pwd_context = CryptContext(schemes=["argon2"], deprecated='auto')
 
 fake_user_db = {
     'johndoe': {
         'username': 'johndoe',
-        'hashed_password': pwd_context.hash('secret')
+        'hashed_password': pwd_context.hash('secret123')
     }
 }
 
